@@ -1,0 +1,496 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.home {
+  background-image: url("../images/intro-bg.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.moved::after {
+  content: "|";
+  animation-name: word_move;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.1s;
+}
+
+@keyframes word_move {
+  0.5% {
+    content: "F|";
+  }
+  1% {
+    content: "Fr|";
+  }
+  1.5% {
+    content: "Fro|";
+  }
+  2% {
+    content: "Fron|";
+  }
+  2.5% {
+    content: "Front|";
+  }
+  3% {
+    content: "Fronte|";
+  }
+  3.5% {
+    content: "Fronten|";
+  }
+  4% {
+    content: "Frontend|";
+  }
+  4.5% {
+    content: "Frontend D|";
+  }
+  5% {
+    content: "Frontend De|";
+  }
+  5.5% {
+    content: "Frontend Dev|";
+  }
+  6% {
+    content: "Frontend Deve|";
+  }
+  6.5% {
+    content: "Frontend Devel|";
+  }
+  7% {
+    content: "Frontend Develo|";
+  }
+  7.5% {
+    content: "Frontend Develop|";
+  }
+  8% {
+    content: "Frontend Develope|";
+  }
+  8.5% {
+    content: "Frontend Developer|";
+  }
+  9% {
+    content: "Frontend Develope|";
+  }
+  9.5% {
+    content: "Frontend Develop|";
+  }
+  10% {
+    content: "Frontend Develo|";
+  }
+  10.5% {
+    content: "Frontend Develo|";
+  }
+  11% {
+    content: "Frontend Devel|";
+  }
+  11.5% {
+    content: "Frontend Deve|";
+  }
+  12% {
+    content: "Frontend Dev|";
+  }
+  12.5% {
+    content: "Frontend De|";
+  }
+  13% {
+    content: "Frontend D|";
+  }
+  13.5% {
+    content: "Frontend|";
+  }
+  14% {
+    content: "Fronten|";
+  }
+  14.5% {
+    content: "Fronte|";
+  }
+  15% {
+    content: "Front|";
+  }
+  15.5% {
+    content: "Fron|";
+  }
+  16% {
+    content: "Fro|";
+  }
+  16.5% {
+    content: "Fr|";
+  }
+  17% {
+    content: "F|";
+  }
+  17.5% {
+    content: "|";
+  }
+  18% {
+    content: "G|";
+  }
+  18.5% {
+    content: "Gr|";
+  }
+  19% {
+    content: "Gra|";
+  }
+  19.5% {
+    content: "Grap|";
+  }
+  20% {
+    content: "Graph|";
+  }
+  20.5% {
+    content: "Graphi|";
+  }
+  21% {
+    content: "Graphic|";
+  }
+  21.5% {
+    content: "Graphic D|";
+  }
+  22% {
+    content: "Graphic De|";
+  }
+  22.5% {
+    content: "Graphic Des|";
+  }
+  23% {
+    content: "Graphic Desi|";
+  }
+  23.5% {
+    content: "Graphic Desig|";
+  }
+  24% {
+    content: "Graphic Design|";
+  }
+  24.5% {
+    content: "Graphic Designe|";
+  }
+  25% {
+    content: "Graphic Designer|";
+  }
+  25.5% {
+    content: "Graphic Designe|";
+  }
+  26% {
+    content: "Graphic Design|";
+  }
+  26.5% {
+    content: "Graphic Desig|";
+  }
+  27% {
+    content: "Graphic Desi|";
+  }
+  27.5% {
+    content: "Graphic Des|";
+  }
+  28% {
+    content: "Graphic De|";
+  }
+  28.5% {
+    content: "Graphic D|";
+  }
+  29% {
+    content: "Graphic|";
+  }
+  29.5% {
+    content: "Graphi|";
+  }
+  30% {
+    content: "Graph|";
+  }
+  30.5% {
+    content: "Grap|";
+  }
+  31% {
+    content: "Gra|";
+  }
+  31.5% {
+    content: "Gr|";
+  }
+  32% {
+    content: "G|";
+  }
+  32.5% {
+    content: "|";
+  }
+  33% {
+    content: "C|";
+  }
+  33.5% {
+    content: "CE|";
+  }
+  34% {
+    content: "CEO|";
+  }
+  34.5% {
+    content: "CEO D|";
+  }
+  35% {
+    content: "CEO De|";
+  }
+  35.5% {
+    content: "CEO Dev|";
+  }
+  36% {
+    content: "CEO DevF|";
+  }
+  36.5% {
+    content: "CEO DevFo|";
+  }
+  37% {
+    content: "CEO DevFol|";
+  }
+  37.5% {
+    content: "CEO DevFoli|";
+  }
+  38% {
+    content: "CEO DevFolio|";
+  }
+  38.5% {
+    content: "CEO DevFoli|";
+  }
+  39% {
+    content: "CEO DevFol|";
+  }
+  39.5% {
+    content: "CEO DevFo|";
+  }
+  40% {
+    content: "CEO DevF|";
+  }
+  40.5% {
+    content: "CEO Dev|";
+  }
+  41% {
+    content: "CEO De|";
+  }
+  41.5% {
+    content: "CEO D|";
+  }
+  42% {
+    content: "CEO|";
+  }
+  42.5% {
+    content: "CE|";
+  }
+  43% {
+    content: "C|";
+  }
+  43.5% {
+    content: "|";
+  }
+  44% {
+    content: "W|";
+  }
+  44.5% {
+    content: "We|";
+  }
+  45% {
+    content: "Web |";
+  }
+  45.5% {
+    content: "Web D|";
+  }
+  46% {
+    content: "Web De|";
+  }
+  46.5% {
+    content: "Web Dev|";
+  }
+  47% {
+    content: "Web Deve|";
+  }
+  47.5% {
+    content: "Web Devel|";
+  }
+  48% {
+    content: "Web Develo|";
+  }
+  48.5% {
+    content: "Web Develop|";
+  }
+  49% {
+    content: "Web Develope|";
+  }
+  49.5% {
+    content: "Web Developer|";
+  }
+  50% {
+    content: "Web Develope|";
+  }
+  50.5% {
+    content: "Web Develop|";
+  }
+  51% {
+    content: "Web Develo|";
+  }
+  51.5% {
+    content: "Web Devel|";
+  }
+  52% {
+    content: "Web Deve|";
+  }
+  52.5% {
+    content: "Web Dev|";
+  }
+  53% {
+    content: "Web De|";
+  }
+  53.5% {
+    content: "Web D|";
+  }
+  54% {
+    content: "Web|";
+  }
+  54.5% {
+    content: "We|";
+  }
+  55% {
+    content: "W|";
+  }
+  100% {
+    content: "|";
+  }
+}
+.after-line {
+  width: 0px;
+  height: 4px;
+  margin: auto;
+  background-color: antiquewhite;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+}
+
+.nav-item:hover .after-line {
+  width: 50px;
+}
+
+.about .container .row .about-text .line {
+  width: 100px;
+  height: 3px;
+}
+
+.services-section .container .title .text .line {
+  width: 40px;
+  height: 4px;
+}
+
+.services-section .container .row .services .service .icon-border {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(80, 80, 238);
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  transition-property: border;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+}
+.services-section .container .row .services .service .icon-border:hover {
+  background-color: cornflowerblue;
+  border: 1px solid gray;
+}
+
+.counter-section {
+  background-image: url("../images/post-3.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.counter-section .counters .counter .icon-border {
+  width: 50px;
+  height: 50px;
+}
+
+.protifolio-section .title .line {
+  width: 40px;
+  height: 4px;
+}
+
+.protifolio-section .works .work .layer .plus {
+  width: 30px;
+  height: 30px;
+}
+
+.protifolio-section .works .work .layer img {
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+}
+
+.protifolio-section .works .work:hover img {
+  transform: scale(1.08);
+}
+
+.testimomial-section .carousel {
+  background-image: url("../images/overlay-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.testimomial-section .carousel-inner .carousel-item img {
+  width: 150px;
+  height: 150px;
+}
+.testimomial-section .carousel-inner .carousel-item .border-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.blog .title .line {
+  width: 40px;
+  height: 4px;
+}
+.blog .items .row .item .image {
+  height: 300px;
+}
+.blog .items .row .item .box {
+  top: 285px;
+  left: 40%;
+}
+.blog .items .row .item .footer .left-footer img {
+  width: 30px;
+  height: 30px;
+}
+
+.end .contact .contact-input .title .line {
+  width: 60px;
+  height: 4px;
+}
+.end .contact .contact-text .title .line {
+  width: 60px;
+  height: 4px;
+}
+
+.end {
+  background-image: url("../images/overlay-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.end .contact .contact-text .social-icons .icon-border {
+  width: 60px;
+  height: 60px;
+  transition-property: background-color;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-delay: 0.01s;
+}
+
+.end .contact .contact-text .social-icons .icon-border:hover {
+  background-color: #0d6efd;
+  color: white;
+}
